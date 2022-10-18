@@ -51,6 +51,7 @@ header {
     max-width: 24px;
     max-height: 24px;
     text-decoration: none;
+    margin-right: 22px;
 }
 
 .headicon  svg{
@@ -406,7 +407,6 @@ header {
     align-items: flex-end;
     box-sizing: border-box;
     position: relative;
-    max-width: 250px;
 }
 
 .dm-box-secondcol-body-messages4 {
@@ -421,7 +421,6 @@ header {
 
 .dm-box-secondcol-body-message-text {
     vertical-align: baseline;
-    align-self: flex-end;
     border-radius: 20px;
     border: 1px solid rgb(250, 250, 250);
     color: rgb(38, 38, 38);
@@ -431,6 +430,34 @@ header {
     background-color: rgb(220, 220, 220);
     padding: 12px;
     margin-bottom: 8px;
+    max-width: 220px;
+}
+
+.dm-box-secondcol-body-message-video {
+    vertical-align: baseline;
+    text-align: left;
+    width: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(250, 250, 250);
+    background-color: rgb(220, 220, 220);
+    box-shadow: 1px solid black;
+    padding: 12px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    font-weight: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+
+}
+
+.dm-box-secondcol-body-message-video h4 {
+    font-weight: 600;
+    color: rgb(38, 38, 38);
+}
+
+.dm-box-secondcol-body-message-video p {
+    color: rgb(142, 142, 142);
 }
 
 
